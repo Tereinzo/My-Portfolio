@@ -1,0 +1,87 @@
+body {
+    background-image: url('images/image4.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid green;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.container {
+    max-width: 0 auto;
+    margin: 0 auto;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* To create a rounded image */
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: green;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    font-size: 30px; 
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 24px;
+    color: green;
+    text-align: center;
+    font-family: Arial;
+}
+a {
+    color: green;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+    background-color: green;
+    text-align: left;
+    font-family: Arial;
+}
+
+h4 {
+    color: white;
+    background-color: green;
+    text-align: left;
+    font-family: Arial;
+}
+
+p {
+    text-indent: 3em;
+}
+.square-list {
+    list-style-type: square;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial;
+}
+
+table, th, td {
+    border: 1px solid black; 
+    padding: 8px;
+}
+
+table th {
+    text-align: center;
+    color: white;
+    background-color: green;
+}
